@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
 
 app.get('/calculate', function(req, res, body) {
   console.log(req.query.league_name)
-  var newurl = 'http://' + host + ':8100/calculate?league_name=' + req.query.league_name;
+  var newurl = 'http://' + host + ':8080/calculate?league_name=' + req.query.league_name;
   request(newurl).pipe(res);
 });
 
