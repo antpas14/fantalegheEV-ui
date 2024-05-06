@@ -2,7 +2,7 @@
 This is a basic UI for the fantalegheEV project. Refer to this [fantalegheEV-api](https://github.com/antpas14/fantalegheEV-api) for more information.
 
 ### Sites screenshots
-UI is quite basic and just requires the league name
+UI is quite basic and just requires the league name to be passed through the form
 
 ![Homepage](docs/images/fantaleghe_empty.png)
 
